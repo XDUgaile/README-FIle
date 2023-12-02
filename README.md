@@ -73,7 +73,7 @@ ___
 ### 普通文本
 这是一段普通的文本
 ### 单行文本
-    Hello,大家好，我是果冻虾仁。
+    Hello,大家好
 在一行开头加入1个Tab或者4个空格。
 ### 文本块
 #### 语法1
@@ -87,8 +87,6 @@ ___
 使用一对各三个的反引号：
 ```
 欢迎到访
-我是C++码农
-你可以在知乎、CSDN、简书搜索【果冻虾仁】找到我
 ```
 该语法也可以实现代码高亮，见[代码高亮](#代码高亮)
 ### 文字高亮
@@ -146,7 +144,7 @@ https://github.com/guodongxiaren/ImageCache/raw/master/Logo/foryou.gif
 注意例2的写法使用了**URL标识符**的形式，在[链接](#链接)一节有介绍。
 >在文末有code-past的定义：
 ```
-[code-past]:/img/codepast-logo.jpg "公众号：编程往事"
+[code-past]:/img/codepast-logo.jpg "xdu"
 ```
 
 ## 链接
@@ -154,7 +152,7 @@ https://github.com/guodongxiaren/ImageCache/raw/master/Logo/foryou.gif
 
 |#|语法|效果|
 |---|----|-----|
-|1|`[我的博客](http://blog.csdn.net/guodongxiaren "悬停显示")`|[我的博客](http://blog.csdn.net/guodongxiaren "悬停显示")|
+|1|`[我的博客](http://blog.csdn.net/guodongxiaren "悬停显示")`|[我的博客](https://blog.csdn.net/m0_63355790?spm=1010.2135.3001.5421 "悬停显示")|
 |2|`[我的知乎][zhihu] `|[我的知乎][zhihu] |
 
 语法2由两部分组成：
@@ -199,14 +197,14 @@ https://github.com/guodongxiaren/ImageCache/raw/master/Logo/foryou.gif
 ### 无序列表
 #### 语法
 ```
-* 昵称：果冻虾仁
-- 别名：隔壁老王
-* 英文名：Jelly
+* 昵称：
+- 别名：
+* 英文名：
 ```
 #### 效果
-* 昵称：果冻虾仁
-- 别名：隔壁老王
-* 英文名：Jelly
+* 昵称：
+- 别名：
+* 英文名：
 
 ### 多级无序列表
 #### 语法
@@ -461,8 +459,8 @@ star历史可以使用这个网站[star-history.com](https://star-history.com/)
 
 
 --------------------------------
-[csdn]:http://blog.csdn.net/guodongxiaren "我的博客"
-[zhihu]:https://www.zhihu.com/people/guodongxiaren "我的知乎，欢迎关注"
+[csdn]:https://blog.csdn.net/m0_63355790?spm=1010.2135.3001.5421 "我的博客"
+%[zhihu]:https://www.zhihu.com/people/guodongxiaren "我的知乎，欢迎关注"
 [weibo]:http://weibo.com/linpiaochen
 [baidu-logo]:http://www.baidu.com/img/bdlogo.gif "百度logo"
 [weibo-logo]:/img/weibo.png "点击图片进入我的微博"
